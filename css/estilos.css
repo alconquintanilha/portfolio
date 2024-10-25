@@ -46,12 +46,24 @@ h1{
     color:#aaaaaa;
     text-align: center;
     font-size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2{
     color:#aaaaaa;
     text-align: center;
     font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h3{
+    color:#aaaaaa;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p{
@@ -69,6 +81,12 @@ a{
 }
 
 .header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     font-size: 12px;
     background-color: #c5c5c57e;
     position: sticky;
@@ -114,7 +132,7 @@ a{
 }
 
 .boxSobre{
-    font-size: 1rem;
+    font-size: 3rem;
     box-sizing: content-box;
     background-color: hsla(0, 0%, 30%, 0.055);
     margin-inline: auto;
@@ -122,6 +140,31 @@ a{
     padding: 40px;
     text-align: center;
     overflow: auto;
+    h2{
+        color:#aaaaaa;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.boxContacto{
+    font-size: 1rem;
+    line-height: 2;
+    box-sizing: content-box;
+    background-color: hsla(0, 0%, 30%, 0.055);
+    margin-inline: auto;
+    border: 2px groove rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 45px;
+    text-align: center;
+    overflow: auto;
+    h2{
+        color:#aaaaaa;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .boxLogo{
@@ -208,6 +251,11 @@ a{
     right: 20px;
 }
 
-footer{
+.footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #eeeeee;
 }

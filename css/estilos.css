@@ -155,8 +155,7 @@ a{
     background-color: hsla(0, 0%, 30%, 0.055);
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
-    padding-top: 20px;
-    padding-bottom: 45px;
+    padding-top: 97px;
     text-align: center;
     overflow: auto;
     h2{
@@ -241,21 +240,23 @@ a{
 }
 
 .fa-instagram{
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .fa-arrow-turn-up{
     font-size: 2.5em;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 120px;
 }
 
 .footer{
     width: 100%;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #eeeeee;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right bottom, #ffffe1, #fff8e3, #fff3eb, #fff1f2, #f8f0f4, #e6e2e5, #d5d3d5, #c5c5c5, #a7a7a7, #8b8b8b, #6f6f6f, #555555);
 }
+
+

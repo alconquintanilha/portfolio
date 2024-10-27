@@ -155,7 +155,7 @@ a{
     background-color: hsla(0, 0%, 30%, 0.055);
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
-    padding-top: 97px;
+    padding-bottom: 97px;
     text-align: center;
     overflow: auto;
     h2{

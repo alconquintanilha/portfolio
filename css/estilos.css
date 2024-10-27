@@ -243,6 +243,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 40px;
     div{
         text-align: center;
         width: 500px;

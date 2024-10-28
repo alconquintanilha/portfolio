@@ -247,7 +247,7 @@ a{
     padding-bottom: 40px;
     div{
         text-align: center;
-        width: 500px;
+        width: 300px;
         img{
             width: auto;
             height: 300px;
@@ -264,10 +264,10 @@ a{
     padding-bottom: 40px;
     div{
         text-align: center;
-        width: 500px;
+        width: 350px;
         img{
             width: auto;
-            height: 200px;
+            height: 100px;
             object-fit: cover;
         }
     }

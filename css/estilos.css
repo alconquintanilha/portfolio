@@ -238,6 +238,24 @@ a{
     }
 }
 
+.realidadAumentada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    div{
+        text-align: center;
+        width: 500px;
+        img{
+            width: auto;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+
 .galeria{
     display: flex;
     flex-wrap: wrap;

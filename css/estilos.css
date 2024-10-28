@@ -155,14 +155,13 @@ a{
     background-color: hsla(0, 0%, 30%, 0.055);
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
-    padding-bottom: 97px;
+    padding-bottom: 50px;
     text-align: center;
     overflow: auto;
     h2{
         color:#aaaaaa;
         text-align: center;
         padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 

@@ -180,8 +180,8 @@ a{
     background-color: hsla(0, 0%, 30%, 0.055);
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 160px;
     padding-bottom: 160px;
     text-align: center;

@@ -54,7 +54,7 @@ h2{
     color:#aaaaaa;
     text-align: center;
     font-size: 2rem;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -141,8 +141,7 @@ a{
     h2{
         color:#aaaaaa;
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 1px;
     }
 }
 

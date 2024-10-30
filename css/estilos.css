@@ -252,16 +252,16 @@ a{
                 color: #eeeeee;
                 display: inline-block;
                 margin-bottom: 10px;
-                padding: 20px;
+                text-align: center;
                 border-radius: 10px;
-                box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
-                -webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
-                -moz-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
-                backdrop-filter: blur(2px);
+                padding-top: 150px;
+                
             }
             h2{
                 font-size: 2.5em;
                 color: #eeeeee;
+                text-align: center;
+               
                 
             }
             a{
@@ -271,7 +271,9 @@ a{
                 color: #eeeeee;
                 font-size: 0.75em;
                 border: 4px groove grey;
-                padding: 5px;
+                padding: 20px;
+                
+                text-align: center;
                 border-radius: 5px;
                 box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
                 -webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
@@ -302,8 +304,8 @@ a{
 .galeria{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 10px;
     padding-bottom: 40px;
     div{
         text-align: center;

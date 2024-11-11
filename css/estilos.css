@@ -89,7 +89,7 @@ a{
             list-style: none;
             li{
                 display: inline-block;
-                margin-right: 15px
+                margin-right: 5px
             }
             a{
                 color: black;
@@ -309,6 +309,10 @@ a{
     font-size: 20px;
 }
 
+.fuente15px{
+    font-size: 15px;
+}
+
 .fuenteNegrita{
     font-weight: 700;
 }
@@ -338,18 +342,21 @@ a{
     padding-right: 4px;
     font-size: 2em;
     position: fixed;
-    bottom: 40px;
+    bottom: 125px;
+    right: 30px;
 }
 
 .adress{
-    display: inline-block;
+    display: flex;
     text-decoration: none;
 }
 
 .footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
     width: 100%;
     padding: 20px;
-    display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-image: linear-gradient(to right bottom, #ffffe1, #fff8e3, #fff3eb, #fff1f2, #f8f0f4, #e6e2e5, #d5d3d5, #c5c5c5, #a7a7a7, #8b8b8b, #6f6f6f, #555555);

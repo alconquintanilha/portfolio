@@ -315,6 +315,7 @@ a{
 
 .fuente10px{
     font-size: 12px;
+    padding-top: 10px;
 }
 
 .fuenteNegrita{
@@ -346,7 +347,7 @@ a{
     padding-right: 4px;
     font-size: 2em;
     position: fixed;
-    bottom: 125px;
+    bottom: 30px;
     right: 30px;
 }
 
@@ -364,4 +365,13 @@ a{
     align-items: center;
     justify-content: space-evenly;
     background-image: linear-gradient(to right bottom, #ffffe1, #fff8e3, #fff3eb, #fff1f2, #f8f0f4, #e6e2e5, #d5d3d5, #c5c5c5, #a7a7a7, #8b8b8b, #6f6f6f, #555555);
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        padding: 20px;
+        row-gap: 20px;
+        align-items: start;
+    }
 }

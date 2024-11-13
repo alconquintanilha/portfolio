@@ -367,8 +367,15 @@ a{
     padding-right: 4px;
     font-size: 2em;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .fa-arrow-turn-up{
+        bottom: 20px;
+        right: 20px;
+    }
 }
 
 .adress{

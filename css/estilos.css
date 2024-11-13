@@ -233,8 +233,8 @@ a{
     background-color: hsla(0, 0%, 30%, 0.055);
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 160px;
     padding-bottom: 160px;
     align-items: center;
@@ -255,6 +255,15 @@ a{
         background-color: #dddddd;
       }
     }
+
+@media screen and (max-width: 768px){
+    .carritoTemplate{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+}
 
 .principalIndex{
     background-image: url(../assets/img/04.jpg);

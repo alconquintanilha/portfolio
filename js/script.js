@@ -161,7 +161,9 @@ botonEnviar.addEventListener('click', (evento) => {
         } else {
 
 // Convertir la primera letra de nombre y apellido a mayúscula 
-Nombre = Nombre.charAt(0).toUpperCase() + Nombre.slice(1).toLowerCase(); 
+Nombre = Nombre.split(' ').map(function(palabra) { 
+    return palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase(); 
+}).join(' '); 
 Apellido = Apellido.split(' ').map(function(palabra) { 
     return palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase(); 
 }).join(' '); 

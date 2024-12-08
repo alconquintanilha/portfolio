@@ -28,36 +28,40 @@
         </header>
         <main class="boxContacto">
            <h2>Contacto</h2>
-           <div>
-            <label for="nombre">Nombre: 
-                <input type="text" placeholder="Ingrese su nombre" required name="nombre" id="nombre">
-            </label>
-            </div>
+           <form action="https://formspree.io/f/mpwzqygw" method="POST" target="_blank">
             <div>
-            <label for="apellido">Apellido: 
-                <input type="text" placeholder="Ingrese su apellido" required name="apellido" id="apellido">
-            </label>
-            </div>
-            <form
-                action="https://formspree.io/f/mpwzqygw"
-                method="POST"
-            >
+                <label for="nombre">Nombre: 
+                    <input type="text" placeholder="Ingrese su nombre" required name="nombre" id="nombre">
+                </label>
+                </div>
+                <div>
+                <label for="apellido">Apellido: 
+                    <input type="text" placeholder="Ingrese su apellido" required name="apellido" id="apellido">
+                </label>
+                </div>
             <div>
                 <label>
                     E-mail:
-                    <input type="email" placeholder="Ingrese su e-mail" name="email">
+                    <input type="email" placeholder="Ingrese su e-mail" name="email" id="email">
                 </label>               
             </div>
             Mensaje:
             <div>
             <label>
-                <textarea class="auto-resize-textarea" placeholder="Escriba su mensaje" name="message"></textarea>
+                <textarea class="auto-resize-textarea" placeholder="Escriba su mensaje" name="message" id="mensaje"></textarea>
             </label>
             </div>
             <!-- your other form fields go here -->
             <div>
                 <input type="reset" value="Limpiar formulario">
-                <button type="submit">Enviar</button>
+            <!--"ENVIAR" COMO BUTTON: FUNCIONA CON FORMSPREE PERO NO FUNCIONAN LAS VALIDACIONES
+                <button type="submit" id="botonEnviarFormulario">Enviar</button>
+            -->
+            <!--"ENVIAR" COMO INPUT: FUNCIONA CON VALIDACIONES PERO NO ENVÍA FORMULARIO A FORMSPREE-->
+            <!--    <input type="submit" value="Enviar" id="botonEnviarFormulario">-->
+     
+                <input type="submit" value="Enviar" id="botonEnviarFormulario">
+
             </div>
             </form>
             <!--<form>
@@ -134,5 +138,6 @@
             </div>
             -->
         </footer>
+    <script src="../js/script.js"></script>
     </body>
 </html>

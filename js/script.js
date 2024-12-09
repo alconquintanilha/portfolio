@@ -94,12 +94,6 @@ if (sobre !== null){
     console.log(textoSobre);
 }
 
-const inputNombre = document.getElementById('nombre');
-const inputApellido = document.getElementById('apellido');
-const inputEmail = document.getElementById('email');
-const inputMensaje = document.getElementById('mensaje');
-const botonEnviar = document.getElementById('botonEnviarFormulario');
-
 /*
 let Nombre = inputNombre.value;
 let Apellido = inputApellido.value;
@@ -138,6 +132,15 @@ console.log(Nombre, Apellido, Email);
 
 /*"ENVIAR" COMO INPUT: FUNCIONAN LAS VALIDACIONES PERO NO ENVÍA FORMULARIO A FORMSPREE*/
 
+
+
+const inputNombre = document.getElementById('nombre');
+const inputApellido = document.getElementById('apellido');
+const inputEmail = document.getElementById('email');
+const inputMensaje = document.getElementById('mensaje');
+const botonEnviar = document.getElementById('botonEnviarFormulario');
+
+
 function validateEmail(Email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(Email).toLowerCase());
@@ -168,7 +171,26 @@ Apellido = Apellido.split(' ').map(function(palabra) {
     return palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase(); 
 }).join(' '); 
 
+
 // Imprimir en la consola 
 console.log(`Nombre: ${Nombre}, Apellido: ${Apellido}, E-mail: ${Email}`);
-    }
+
+alert('Formulario enviado exitosamente. ¡Gracias!');
+    
+emailjs.send(
+    'service_xm6256j', // El ID del servicio que creaste en EmailJS
+    'template_pujt3a8', // El ID del template que creaste en EmailJS
+    {
+        from_name: inputNombre.value,
+        to_name: 'Rodrigo',
+        email: inputEmail.value,
+        message: inputMensaje.value
+    },
+    'O6Jx9_1OUfKgpryCU' // Tu ID de usuario
+).then((response) => {
+    console.log('Correo enviado:', response);
+}, (error) => {
+    console.log('Error:', error);
+});
+}
 });

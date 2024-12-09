@@ -28,7 +28,6 @@
         </header>
         <main class="boxContacto">
            <h2>Contacto</h2>
-           <form action="https://formspree.io/f/mpwzqygw" method="POST" target="_blank">
             <div>
                 <label for="nombre">Nombre: 
                     <input type="text" placeholder="Ingrese su nombre" required name="nombre" id="nombre">
@@ -51,17 +50,19 @@
                 <textarea class="auto-resize-textarea" placeholder="Escriba su mensaje" name="message" id="mensaje"></textarea>
             </label>
             </div>
-            <!-- your other form fields go here -->
             <div>
                 <input type="reset" value="Limpiar formulario">
-            <!--"ENVIAR" COMO BUTTON: FUNCIONA CON FORMSPREE PERO NO FUNCIONAN LAS VALIDACIONES
-                <button type="submit" id="botonEnviarFormulario">Enviar</button>
-            -->
-            <!--"ENVIAR" COMO INPUT: FUNCIONA CON VALIDACIONES PERO NO ENVÍA FORMULARIO A FORMSPREE-->
-            <!--    <input type="submit" value="Enviar" id="botonEnviarFormulario">-->
-     
                 <input type="submit" value="Enviar" id="botonEnviarFormulario">
-
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "O6Jx9_1OUfKgpryCU",
+      });
+   })();
+</script>
             </div>
             </form>
             <!--<form>

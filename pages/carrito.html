@@ -27,48 +27,26 @@
         </header>
     </head>
     <body>
+        <main>
         <h2>Carrito</h2>
         <section class="carritoTemplate">
             <table>
+                <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
             <tr>
-                <th>Producto</th>
-                <th>Unidades</th>
-                <th>Valor</th>
+                </thead>
+                <tbody id="tablaCarrito">
+                </tbody>
             </tr>
-            <tr>
-                <td>Sin título, de la serie Huancas, 2024, fotografía y realidad aumentada, 68,5 x 52,2 cm</td>
-                <td>01</td>
-                <td>$500</td>
-            </tr>
-            <!--
-            <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-            </tr>
-            <tr>
-                <td>Ernst Handel</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-            </tr>
-            <tr>
-                <td>Island Trading</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-            </tr>
-            <tr>
-                <td>Laughing Bacchus Winecellars</td>
-                <td>Yoshi Tannamuri</td>
-                <td>Canada</td>
-            </tr>
-            <tr>
-                <td>Magazzini Alimentari Riuniti</td>
-                <td>Giovanni Rovelli</td>
-                <td>Italy</td>
-            </tr>
-            -->
             </table>
+            <div>
+                <h3>Total: $<span id="totalCarrito">0.00</span></h3>
+            </div>
         </section>
+        </main>
         <div>
             <a href="#body"> 
                 <!--<img src="" alt="arriba">-->
@@ -109,5 +87,6 @@
             </div>
             -->
         </footer>
+        <script src="../js/mostrar_carrito.js"></script>
     </body>
 </html>

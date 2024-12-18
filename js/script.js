@@ -2,12 +2,6 @@ function limpiarFormulario() {
     document.getElementById("miFormulario").reset(); 
 }
 
-const sobre = document.getElementById('sobre');
-if (sobre !== null){
-    let textoSobre = sobre.innerText;
-    console.log(textoSobre);
-}
-
 const inputNombre = document.getElementById('nombre');
 const inputApellido = document.getElementById('apellido');
 const inputEmail = document.getElementById('email');
